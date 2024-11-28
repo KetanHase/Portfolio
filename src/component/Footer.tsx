@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           <div className='phone'>
           <h4>  <FaPhone size={20} style={{color:"#fff",
               marginRight: "2rem" }} />
-               7766994422 
+               7038791841
                </h4>
           </div>
           <div className='email'>
@@ -27,23 +27,23 @@ const Footer: React.FC = () => {
             size={20} 
             style={{color:"#fff",
               marginRight: "2rem" }} />
-                info@gmail.com
+                ketanhase999@gmail.com
             </h4>
           </div>
 
         </div>
         <div className='right'>
-          <h4>About the company</h4>
-          <p> scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
+          <h4>About</h4>
+          <p> Say hello at ketanhase999@gmail.com For more info, here's my Resume</p>
           <div className='social'>
           <FaFacebook size={30} style={{color:"#fff",
               marginRight: "1rem" }} />
-            <FaGithub size={30} style={{color:"#fff",
-            marginRight: "1rem" }} />
-            <FaLinkedin size={30} style={{color:"#fff",
-            marginRight: "1rem" }} />
-            <FaWhatsapp size={30} style={{color:"#fff",
-              marginRight: "1rem" }} />
+            <a href='https://github.com/KetanHase' target="_blank"><FaGithub size={30} style={{color:"#fff",
+            marginRight: "1rem" }} /></a>
+            <a href='www.linkedin.com/in/ketan-hase-8230aa2aa' target="_blank"><FaLinkedin size={30} style={{color:"#fff",
+            marginRight: "1rem" }} /></a>
+            <a href="https://wa.me/7038791841?text=Hello" target="_blank"rel="noopener noreferrer"><FaWhatsapp size={30} style={{color:"#fff",
+              marginRight: "1rem" }} /></a>
           </div>
           </div>
       </div>
@@ -51,11 +51,12 @@ const Footer: React.FC = () => {
         <ul>
           <li><a href='#' target="_blank"><FaFacebook size={30} style={{color:"#fff",
               marginRight: "1rem" }} /></a></li>
-          <li><a href='#' target="_blank"><FaGithub size={30} style={{color:"#fff",
+          <li><a href='https://github.com/KetanHase' target="_blank"><FaGithub size={30} style={{color:"#fff",
             marginRight: "1rem" }} /></a></li>
-          <li><a href='#' target="_blank"><FaLinkedin size={30} style={{color:"#fff",
+          <li><a href='www.linkedin.com/in/ketan-hase-8230aa2aa' target="_blank"><FaLinkedin size={30} style={{color:"#fff",
             marginRight: "1rem" }} /></a></li>
-          <li><a href='#' target="_blank"><FaWhatsapp size={30} style={{color:"#fff",
+          <li><a href="https://wa.me/7038791841?text=Hello" target="_blank"rel="noopener noreferrer">
+          <FaWhatsapp size={30} style={{color:"#fff",
               marginRight: "1rem" }} /></a></li>
         </ul>
 

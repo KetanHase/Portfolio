@@ -65,20 +65,20 @@ const Expertise: React.FC = () => {
           <div className="section">
             <h2>Education</h2>
             <div className="item">
-              <h3>2017 - Present</h3>
-              <h4>B.E Computer Engineering</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Error corrupti recusandae obcaecati odio repellat ducimus cum, minus tempora aperiam at.</p>
+              <h3>2024 - Present</h3>
+              <h4>Master in Computer  Science</h4>
+              <p>A Master of Science in Computer Science (MS in CS) is a graduate program that focuses on advanced computer science topics and builds on technical skills. Students learn about topics like software development, machine learning, data visualization, and cybersecurity, and often specialize in a field. </p>
             </div>
             <div className="item">
-              <h3>2016 - 2017</h3>
-              <h4>Diploma in Computer Engineering</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.ips, eos, id officiis quas placet quia voluptas dolorem eum animi nostrum quae-aliquid repudiandae saepe!</p>
+              <h3>2020 - 2023</h3>
+              <h4>Bachelor in Computer Science</h4>
+              <p>A Bachelor of Computer Science (BCS or BCompSc) is an undergraduate degree that provides a foundation in computer science principles and practical skills. It can qualify students for a variety of technology-focused careers. </p>
             </div>
-            <div className="item">
+      {/*   <div className="item">
               <h3>2015 - 2016</h3>
               <h4>High School Degree</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
-            </div>
+            </div>*/}
           </div>
         </div>
         <div className="column">

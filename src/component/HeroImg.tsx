@@ -12,8 +12,8 @@ const HeroImg: React.FC = () => {
        src={INTRBG} alt="A Home background"  />
       </div>
       <div className="content">
-        <p>HI, I'M A FREELANCER</p>
-        <h1>React Developer</h1>
+        <p>HI, I'M A KETAN HASE </p>
+        <h1>Full Stack Developer</h1>
         <div>
         <a href="/pdf/KETAN_HASE_7038791841.pdf" target="_blank" className="btn" rel="noopener noreferrer" >Download My Cv</a>
       

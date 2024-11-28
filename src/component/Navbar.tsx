@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
     }
   };
 
-  window.addEventListener("scroll", changeColor);
+  //window.addEventListener("scroll", changeColor);
 
   return (
     
