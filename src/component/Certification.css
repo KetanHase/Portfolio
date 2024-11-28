@@ -1,0 +1,82 @@
+.my-certification {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #DDE1E5;
+  }
+  
+  .my-certification h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .section-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .section-cer {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .section-cer h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #3C486B;;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card-cer {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card-cer img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .card-cer p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .cer-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .cer-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 740px) {
+    .section-container {
+      flex-direction: column;
+    }
+  }
+  

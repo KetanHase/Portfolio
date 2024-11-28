@@ -1,0 +1,114 @@
+/* Resume.css */
+ 
+  
+  .resume {
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+    background-color: #fff;
+  }
+  
+  .resume  h1 {
+    text-align: center;
+    color: #212529;
+  }
+  
+  .resume-sections {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+    min-width: 300px;
+  }
+  
+  .section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+   
+
+  .section h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  label {
+    color: #575151;
+    margin-bottom: 0.5rem;
+    font-size: small;
+}
+  
+  .item {
+    margin-bottom: 10px;
+  }
+  
+  .item h3 {
+    color: #000;
+    font-weight: 300;
+  }
+  
+  .item h4 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 100;
+  }
+  .item p {
+    margin-top: 0px;
+    margin-bottom: 1 rem;
+    color: #444;
+    font-size: 1.2rem;
+    font-weight: 120;
+  }
+  .skill-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .skill{
+  margin-bottom: 15px;
+  background-color: #f2f2f2;  
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: calc(33.33% - 1rem);  
+  text-align: center;
+  box-sizing: border-box;
+  }
+  .language {
+    margin-bottom: 15px;
+  }
+ 
+  
+  .progress-bar-container {
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    height: 5px;
+  }
+  
+  .progress-bar {
+    background-color: #0613ca;
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .resume-sections {
+      flex-direction: column;
+    }
+    .skill {
+      width: 100%; /* Make each skill take full width on smaller screens */
+    }
+  }
+  

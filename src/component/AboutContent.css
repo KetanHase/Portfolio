@@ -1,0 +1,62 @@
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 700px;
+}
+
+.about .left p{
+    margin: 1.2rem 0;
+}
+.about .right {
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.personal-info-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+}
+
+.personal-info-card h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+.personal-info-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.personal-info-card li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.personal-info-card li strong {
+    color: #333;
+}
+.indent {
+    text-indent: 50px; /* Adjust the value as needed */
+  }
