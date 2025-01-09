@@ -35,7 +35,7 @@ const WorkCard: React.FC = () => {
                 <div className="pro-details">
                 <p> This project frontend technologies for user experience and CodeIgniter 4 for backend processing, making it robust, secure, and efficient.</p>
                         <div className="pro-btns">
-                            <NavLink to="url.com" className="btn">
+                            <NavLink to="/viewdetail" className="btn">
                                 View
                             </NavLink>
                             <NavLink to="url.com" className="btn">
