@@ -1,11 +1,30 @@
-import React  from "react";
+import React, { useState }  from "react";
 import "./WorkCard.css";
 import Project1 from "../img/project1.png";
 import { NavLink } from "react-router-dom";
+import ModalBox from "./ModalBox";
  
+ 
+// const projectname =[
+//    'demo','demo2'
+// ];
+// const projectImages = [Project1,Project1,Project1,Project1,Project1,Project1,Project1,Project1,Project1];
 
- 
+const projectImages = [
+    { src: Project1, title: 'Company Website' },
+    { src: Project1, title: 'E-Commerce Platform' },
+    { src: Project1, title: 'Portfolio Website' },
+    { src: Project1, title: 'Company Website' },
+    { src: Project1, title: 'E-Commerce Platform' },
+    { src: Project1, title: 'Portfolio Website' },
+    { src: Project1, title: 'Company Website' },
+    { src: Project1, title: 'E-Commerce Platform' },
+    { src: Project1, title: 'Portfolio Website' },
+  ];
+
+
 const WorkCard: React.FC = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
     
     return (
     <div className="work-container"> 
@@ -35,12 +54,23 @@ const WorkCard: React.FC = () => {
                 <div className="pro-details">
                 <p> This project frontend technologies for user experience and CodeIgniter 4 for backend processing, making it robust, secure, and efficient.</p>
                         <div className="pro-btns">
-                            <NavLink to="url.com" className="btn">
+                            {/* <NavLink to="/viewdetail" className="btn">
                                 View
-                            </NavLink>
+                            </NavLink> */}
+                            <button onClick={() => setIsModalOpen(true)} className="btn">
+                                        View Images
+                                    </button>
+                                    <ModalBox
+                                            isOpen={isModalOpen}
+                                            onClose={() => setIsModalOpen(false)}
+                                            // titles={projectname}
+                                            images={projectImages}
+                                            
+                                        />
                             <NavLink to="url.com" className="btn">
                                Source
                             </NavLink>
+
                       </div>
                 </div>
 
@@ -52,9 +82,12 @@ const WorkCard: React.FC = () => {
                     <div className="pro-details">
                         <p> This Is text</p>
                         <div className="pro-btns">
-                                <NavLink to="url.com" className="btn">
+                                {/* <NavLink to="url.com" className="btn">
                                     View
-                                </NavLink>
+                                </NavLink> */}
+                                <button onClick={() => setIsModalOpen(true)} className="btn">
+                                        View Images
+                                    </button>
                                 <NavLink to="url.com" className="btn">
                                 Source
                                 </NavLink>
