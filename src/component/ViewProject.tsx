@@ -1,7 +1,7 @@
 import React from 'react';
 import './ViewProject.css'; // Ensure your CSS styling is included
 import ProjectImage from '../img/project1.png'; // Example image import
-import arush from '../img/arush.jpeg'
+ 
 
 const ViewProject: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const ViewProject: React.FC = () => {
 
       <div className="project-image-container">
       <div className="image-item">
-          <img src={arush} alt="Company Website" className="project-image" />
+          <img src={ProjectImage} alt="Company Website" className="project-image" />
           <p>Home Page</p>
         </div>
         <div className="image-item">
