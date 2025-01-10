@@ -36,12 +36,12 @@ const Footer: React.FC = () => {
           <h4>About</h4>
           <p> Say hello at ketanhase999@gmail.com For more info, here's my Resume</p>
           <div className='social'>
-          <FaFacebook size={30} style={{color:"#fff",
-              marginRight: "1rem" }} />
-            <a href='https://github.com/KetanHase' target="_blank"><FaGithub size={30} style={{color:"#fff",
+          <a href='https://github.com/KetanHase' target="_blank" rel="noreferrer"><FaGithub size={30} style={{color:"#fff",
             marginRight: "1rem" }} /></a>
             <a href='www.linkedin.com/in/ketan-hase-8230aa2aa' target="_blank"><FaLinkedin size={30} style={{color:"#fff",
             marginRight: "1rem" }} /></a>
+             <FaFacebook size={30} style={{color:"#fff",
+              marginRight: "1rem" }} />
             <a href="https://wa.me/7038791841?text=Hello" target="_blank"rel="noopener noreferrer"><FaWhatsapp size={30} style={{color:"#fff",
               marginRight: "1rem" }} /></a>
           </div>
@@ -49,15 +49,16 @@ const Footer: React.FC = () => {
       </div>
       <div className='social-section'>
         <ul>
-          <li><a href='#' target="_blank"><FaFacebook size={30} style={{color:"#fff",
-              marginRight: "1rem" }} /></a></li>
-          <li><a href='https://github.com/KetanHase' target="_blank"><FaGithub size={30} style={{color:"#fff",
+          
+          <li><a href='https://github.com/KetanHase' target="_blank" rel="noreferrer"><FaGithub size={30} style={{color:"#fff",
             marginRight: "1rem" }} /></a></li>
           <li><a href='www.linkedin.com/in/ketan-hase-8230aa2aa' target="_blank"><FaLinkedin size={30} style={{color:"#fff",
             marginRight: "1rem" }} /></a></li>
           <li><a href="https://wa.me/7038791841?text=Hello" target="_blank"rel="noopener noreferrer">
           <FaWhatsapp size={30} style={{color:"#fff",
               marginRight: "1rem" }} /></a></li>
+              <li> <FaFacebook size={30} style={{color:"#fff",
+              marginRight: "1rem" }} /> </li>
         </ul>
 
       </div>

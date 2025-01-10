@@ -55,3 +55,24 @@
     background-color: #0056b3;
   }
   
+  .project-detail {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .project-detail img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .project-detail a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  

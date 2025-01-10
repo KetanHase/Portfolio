@@ -10,8 +10,8 @@ const AboutContent: React.FC = () => {
     <div className='about'>
       <div className='left'>
        <h1>Ketan Hase </h1>
-       <p>I am a Fullstack Developer based in Pune. Has Computer Science background.</p>
-       <p>I am a Fullstack Developer based in Pune looking for exciting opportunities. Has Computer Science background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing Cricket, travelling and listening lofi songs. Learning more to improve skill.</p>
+       <p>I am a Fullstack Developer based in Pune. Has Computer Science background. 
+        I am a Fullstack Developer based in Pune looking for exciting opportunities. Has Computer Science background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing Cricket, travelling and listening lofi songs. Learning more to improve skill.</p>
        <Link to="/contact">
        <button className='btn'>Contact</button>
         </Link>

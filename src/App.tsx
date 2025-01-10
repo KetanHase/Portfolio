@@ -14,6 +14,7 @@ const App: React.FC = () => {
       <Route path="/project" element={<Project />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/viewdetail" element={<ViewProject />} />
+      
     </Routes>
   );
 };

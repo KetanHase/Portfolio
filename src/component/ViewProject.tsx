@@ -4,6 +4,8 @@ import ProjectImage from '../img/project1.png'; // Example image import
  
 
 const ViewProject: React.FC = () => {
+     
+
   return (
     <div className="view-project-container">
       <h1>Company Website</h1>
@@ -34,6 +36,8 @@ const ViewProject: React.FC = () => {
 
       <a href="/" className="back-btn">Back to Projects</a>
     </div>
+
+     
   );
 };
 
